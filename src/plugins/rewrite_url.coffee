@@ -5,7 +5,7 @@
 # => decreasing the need to customize the app client per-third party
 
 qs = require 'querystring'
-_ = require 'lodash'
+pick = require 'lodash.pick'
 whitelistParameters = [ 'lang', 'q' ]
 
 module.exports =
@@ -26,7 +26,7 @@ rewriteUrl = (url)->
   query = redirectFbLocale query
 
   # just keeping whitelisted parameters
-  cleanedQuery = _.pick query, whitelistParameters
+  cleanedQuery = pick query, whitelistParameters
   cleanedQueryLength = Object.keys(cleanedQuery).length
   if cleanedQueryLength > 0
     queryString = qs.stringify cleanedQuery
