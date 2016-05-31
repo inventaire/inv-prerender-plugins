@@ -1,7 +1,7 @@
 {
   "name": "inv-prerender-plugins",
   "version": "1.0.3",
-  "description": "",
+  "description": "A collection of plugins created for inventaire prerender but that you might find useful too.",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,18 @@
   },
   "devDependencies": {
     "coffee-script": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inventaire/inv-prerender-plugins.git"
+  },
+  "keywords": [
+    "prerender",
+    "plugins",
+    "inventaire"
+  ],
+  "bugs": {
+    "url": "https://github.com/inventaire/inv-prerender-plugins/issues"
+  },
+  "homepage": "https://github.com/inventaire/inv-prerender-plugins#readme"
 }
