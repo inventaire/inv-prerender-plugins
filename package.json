@@ -1,6 +1,6 @@
 {
   "name": "inv-prerender-plugins",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A collection of plugins created for inventaire prerender but that you might find useful too.",
   "main": "build/index.js",
   "scripts": {
